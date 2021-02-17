@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+/* partie navigation */
+.navbar-brand{
+    font-family: 'kaushan script';
+    font-style: italic;
+    font-size: 30px; 
+}
+.navbar-collapse a{
+    font-size: 20px;
+}
+
+/* section jumbotron */
+.jumbotron{
+    background-image: url(img/headerImg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height:80vh;
+}
+.jumbotron h1{font-size:6em;
+}
+.jumbotron h3{font-size:2em;
+}
+hr{background: #000;
+}
+
+/* section paralax */
+#start{
+    background:url(img/start.jpeg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    min-height: 200px;
+    text-align:center
+}
+
+/*  section clients */
+.client img{ /*pour faire remonter image au milieu du haut carte*/
+    margin-top: -50px;
+}
+.client i{
+    color:rgb(25, 133, 160);
+}
